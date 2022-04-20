@@ -1,0 +1,77 @@
+.caixa {
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+}
+
+.tituloPrincipal {
+	position: absolute;
+	top: 125px;
+	right: 400px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#banner {
+	width: 100%;
+}
+
+.principal {
+	background: lightgray;
+	padding: 20px;
+}
+
+.titulo {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 10px;
+	margin-bottom: 20px;
+}
+
+.principal p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 18px;
+	padding: 5px 0;
+}
+
+em strong {
+	color: red;
+}
+
+.beneficios {
+	background: white;
+	padding:  20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width:  20%;
+	margin-left: 5%;
+	margin-right: 15%;
+	list-style: initial;
+}
+
+.itens{
+	font-style: italic;
+}
+
+.imagemBeneficios {
+	width:  50%;
+}
+
+footer {
+	background: url("images/bg.jpg");
+	padding: 40px 0;
+	text-align: center;
+}
+
+.copyright {
+	color: white;
+	font-size: 13px;
+	margin-top: 20px;
+}

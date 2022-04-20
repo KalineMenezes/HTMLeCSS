@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato - Barbearia Alura</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="images/logo.png" alt="Logo da Barbearia Alura"></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<form>
+				<label for="nome">Nome completo:</label>
+				<input type="text" id="nome" class="inputPadrao" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" class="inputPadrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone:</label>
+				<input type="tel" id="telefone" class="inputPadrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mande uma mensagem!</label>
+				<textarea cols="60" rows="10" id="mensagem" class="inputPadrao" required></textarea>
+
+				<fieldset>					
+					<legend>Como prefere o nosso contato?</legend>
+					<label><input type="radio" name="contato" value="email">E-mail</label>
+
+					<label><input type="radio" name="contato" value="telefone">Telefone</label>					
+
+					<label><input type="radio" name="contato" value="whatsapp" checked>WhatsApp</label>					
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário deseja ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label><input type="checkbox" class="inputCheckbox" checked>Deseja receber nossas novidades por e-mail?</label>
+
+				<input type="submit" value="Enviar formulário" class="botaoEnviar">
+			</form>
+
+			<table>
+				<thead>
+					<tr>
+						<th colspan="2">Horário de Funcionamento</th>
+					</tr>
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>					
+				</thead>
+				<tbody>					
+					<tr>
+						<td>Terça</td>
+						<td>8h - 20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>8h - 20h</td>
+					</tr>
+					<tr>
+						<td>Quinta</td>
+						<td>8h - 20h</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+
+		<footer>
+			<img src="images/logo-branco.png" alt="Logo da Barbearia Alura">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2022</p>
+		</footer>
+	</body>
+</html>
